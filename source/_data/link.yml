@@ -1,0 +1,46 @@
+- class_name: 友情连接
+  class_desc: 添加一些个人认为比较好的博客
+  link_list:
+    - name: JerryC
+      link: https://jerryc.me/
+      avatar: https://jerryc.me/image/avatar.png
+      descr: 今日事,今日毕
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网誌框架
+    - name: 纯洁的微笑
+      link: http://www.ityouknow.com/
+      avatar: http://www.ityouknow.com/assets/images/favicon.ico
+      descr: 纯洁大佬。
+- class_name: 网站
+  class_desc: 一些常用或者比较好的工具
+  link_list:
+    - name: DotaMax
+      link: http://dotamax.com/
+      avatar: http://dotamax.com/favicon.ico
+      descr: 做国内第一游戏数据门户
+    - name: 知乎
+      link: https://www.zhihu.com/
+      avatar: https://pic1.zhimg.com/80/v2-10e18ff65a640175ad058b4b5dfd2867_1440w.png
+      descr: 有问题，上知乎。
+    - name: 天空之城
+      link: https://www.skypixel.com/
+      avatar: https://spcn-webfront.skypixel.com/skypixel/public/favicon.ico
+      descr: 一些航拍爱好者的作品集
+    - name: 果汁排行榜
+      link: http://guozhivip.com/rank/index.html
+      avatar: http://guozhivip.com/images/ic.ico
+      descr: 比较有意思的网站
+    - name: Maven
+      link: https://mvnrepository.com/
+      avatar: https://mvnrepository.com/assets/images/7080b8b0f6f48e6fbaffd5f9d85fcc7f-favicon.ico
+      descr: 仓库地址查询
+    - name: 清华大学镜像网站
+      link: https://mirrors.tuna.tsinghua.edu.cn/
+      avatar: https://mirrors.tuna.tsinghua.edu.cn/static/img/favicon.png
+      descr: 里面是一些常用的开源包
+    - name: Lete大佬
+      link: https://blog.lete114.top/
+      avatat: https://cdn.jsdelivr.net/gh/lete114/lete114.github.io/img/favicon.ico
+      descr: 我相信我可以，但我一直在路上，所以我有无限的可能！！
