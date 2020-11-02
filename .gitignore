@@ -8,3 +8,10 @@ package-lock.json
 ### 编译相关
 public/
 db.json
+
+### 其他文件
+.DS_Store
+Thumbs.db
+*.log
+.deploy*/
+
