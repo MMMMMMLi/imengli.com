@@ -1,0 +1,10 @@
+### 主题相关
+themes/
+
+### node相关
+node_modules/
+package-lock.json
+
+### 编译相关
+public/
+db.json
