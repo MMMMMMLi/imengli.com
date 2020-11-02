@@ -1,6 +1,12 @@
+#!/bin/bash
+source /etc/profile
+
 if [ ! -d "/root/blob/public/" ];then
 echo "文件夹不存在"
 else
+
+cd /root/blob/
+
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 开始更新仓库。"
 git pull origin main
 
