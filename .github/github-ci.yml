@@ -1,4 +1,4 @@
-name: Aliyun Project CICD
+name: Blob Aliyun Project CICD
 
 on:
   push:
