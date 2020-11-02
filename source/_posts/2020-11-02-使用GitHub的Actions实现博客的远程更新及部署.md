@@ -6,7 +6,6 @@ tags:
   - Github
 categories:
   - Blob
-  - Github
 keywords:
   - Blob
 cover: /img/post/onepiece.png
