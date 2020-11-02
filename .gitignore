@@ -15,3 +15,5 @@ Thumbs.db
 *.log
 .deploy*/
 
+### 脚本
+updateBlob.sh
