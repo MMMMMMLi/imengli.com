@@ -9,6 +9,7 @@ keywords:
   - Emoji
 cover: /img/post/emoji.png
 description: GitHub以及博客常用的Emoji表情汇总。
+abbrlink: 35750
 date: 2020-10-20 16:54:21
 updated: 2020-10-20 17:48:51
 ---
