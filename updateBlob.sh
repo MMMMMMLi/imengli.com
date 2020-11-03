@@ -14,5 +14,13 @@ echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 仓库更新完毕，开始编译环
 
 hexo clean && hexo g
 
+echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 编译完毕"
+
+modifiedNum=`git status | grep modified | wc -l`
+
+if [ $modifiedNum -gt 0 ]
+then
+  echo "hhhhhhhhhhhhhhhhhh"
+fi
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> OK "
 fi
