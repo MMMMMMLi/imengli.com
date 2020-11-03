@@ -31,8 +31,9 @@ updated: 2020-10-20 17:48:51
 
 ## 人物
 
-| :scream: `:scream:`                                          | :smile: `:smile:`                                            | :laughing: `:laughing:`                     |
+|            :smile:                                           | :laughing:                                                   | :blush:                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------- |
+| :scream: `:scream:`                                          | :smile: `:smile:`                                            | :laughing: `:laughing:`                     |
 | :blush: `:blush:`                                            | :smiley: `:smiley:`                                          | :relaxed: `:relaxed:`                       |
 | :smirk: `:smirk:`                                            | :heart_eyes: `:heart_eyes:`                                  | :kissing_heart: `:kissing_heart:`           |
 | :kissing_closed_eyes:  `:kissing_closed_eyes:`               | :flushed: `:flushed:`                                        | :relieved: `:relieved:`                     |
@@ -95,8 +96,9 @@ updated: 2020-10-20 17:48:51
 
 ## 自然
 
-| :sunny: `:sunny:`                                            | :umbrella: `:umbrella:`                         | :cloud: `:cloud:`                                            |
+|            :smile:                                           | :laughing:                                      | :blush:                                                      |
 | ------------------------------------------------------------ | ----------------------------------------------- | ------------------------------------------------------------ |
+| :sunny: `:sunny:`                                            | :umbrella: `:umbrella:`                         | :cloud: `:cloud:`                                            |
 | :snowflake: `:snowflake:`                                    | :snowman: `:snowman:`                           | :zap: `:zap:`                                                |
 | :cyclone: `:cyclone:`                                        | :foggy: `:foggy:`                               | :ocean: `:ocean:`                                            |
 | :cat: `:cat:`                                                | :dog: `:dog:`                                   | :mouse: `:mouse:`                                            |
@@ -137,8 +139,9 @@ updated: 2020-10-20 17:48:51
 
 ## 事物
 
-| :bamboo: `:bamboo:`                                          | :gift_heart: `:gift_heart:`                                 | :dolls: `:dolls:`                                   |
+|            :smile:                                           | :laughing:                                                  | :blush:                                             |
 | ------------------------------------------------------------ | ----------------------------------------------------------- | --------------------------------------------------- |
+| :bamboo: `:bamboo:`                                          | :gift_heart: `:gift_heart:`                                 | :dolls: `:dolls:`                                   |
 | :school_satchel: `:school_satchel:`                          | :mortar_board: `:mortar_board:`                             | :flags: `:flags:`                                   |
 | :fireworks: `:fireworks:`                                    | :sparkler: `:sparkler:`                                     | :wind_chime: `:wind_chime:`                         |
 | :rice_scene: `:rice_scene:`                                  | :jack_o_lantern: `:jack_o_lantern:`                         | :ghost: `:ghost:`                                   |
@@ -228,8 +231,9 @@ updated: 2020-10-20 17:48:51
 
 ## 地点
 
-| :house: `:house:`                              | :house_with_garden: `:house_with_garden:`             | :school: `:school:`                                 |
+|            :smile:                             | :laughing:                                            | :blush:                                             |
 | ---------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------- |
+| :house: `:house:`                              | :house_with_garden: `:house_with_garden:`             | :school: `:school:`                                 |
 | :office: `:office:`                            | :post_office: `:post_office:`                         | :hospital: `:hospital:`                             |
 | :bank: `:bank:`                                | :convenience_store: `:convenience_store:`             | :love_hotel: `:love_hotel:`                         |
 | :hotel: `:hotel:`                              | :wedding: `:wedding:`                                 | :church: `:church:`                                 |
@@ -268,8 +272,9 @@ updated: 2020-10-20 17:48:51
 
 ## 符号
 
-| :u6709: `:u6709:`                                            | :u6e80: `:u6e80:`                                            | :u7121: `:u7121:`                                         |
+|            :smile:                                           | :laughing:                                                   | :blush:                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------------- |
+| :u6709: `:u6709:`                                            | :u6e80: `:u6e80:`                                            | :u7121: `:u7121:`                                         |
 | :u7533: `:u7533:`                                            | :u7a7a: `:u7a7a:`                                            | :u7981: `:u7981:`                                         |
 | :sa: `:sa:`                                                  | :restroom: `:restroom:`                                      | :mens: `:mens:`                                           |
 | :womens: `:womens:`                                          | :baby_symbol: `:baby_symbol:`                                | :no_smoking: `:no_smoking:`                               |
