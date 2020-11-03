@@ -10,6 +10,7 @@ keywords:
 description: 记录一下如何使用Hexo和Butterfly搭建的个人博客。
 cover: /img/post/zhenhunjie.jpg
 abbrlink: 23840
+sticky: 2
 date: 2020-08-25 10:33:47
 updated: 2020-08-27 15:08:08
 ---
