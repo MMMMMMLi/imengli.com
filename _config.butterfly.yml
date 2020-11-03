@@ -158,7 +158,7 @@ index_post_content:
 toc:
   enable: true
   number: true
-  auto_open: false # 进入文章页面时，是否自动打开 sidebar 显示 TOC
+  auto_open: true  # 进入文章页面时，是否自动打开 sidebar 显示 TOC
 
 # 文章版权信息
 post_copyright:
