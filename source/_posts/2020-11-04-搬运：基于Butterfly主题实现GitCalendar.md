@@ -8,6 +8,7 @@ categories:
 keywords:
   - Blob
 cover: /img/post/girl.jpg
+abbrlink: 42098
 date: 2020-11-04 17:09:01
 updated: 2020-11-04 17:09:04
 ---
