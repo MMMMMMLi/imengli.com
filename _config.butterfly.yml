@@ -537,7 +537,7 @@ subtitle:
     - 愿我所愿，终能实现
 
 # 当进入网页时，因为加载速度的问题，可能会导致 top_img 图片出现断层显示，或者网页加载不全而出现等待时间，开启 preloader 后，会显示加载动画，等页面加载完，加载动画会消失。
-preloader: true
+preloader: false
 # 3.2.0 之后生效
 # Enter transitions (开启网页进入效果)
 #enter_transitions: true
