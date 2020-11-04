@@ -14,6 +14,7 @@ db.json
 Thumbs.db
 *.log
 .deploy*/
+.idea
 
 ### 脚本
 # updateBlob.sh
