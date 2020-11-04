@@ -15,7 +15,7 @@ date: 2020-08-26 11:28:26
 updated: 2020-09-18 10:10:44
 ---
 
-{% note warning  %}
+{% note warning simple %}
 经过实践和调研，这个方法蠢爆了，:broken_heart: 既要需要自己搭建Gitlab服务，还需要保证自己的服务器性能强大。:mask::mask:
 
 研究了一下，发现GitHub也出了自己的CICD服务：Actions，:neutral_face: 所以决定使用Github Actions来实现此效果。

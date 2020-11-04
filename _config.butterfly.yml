@@ -1,5 +1,5 @@
-# 当前主题版本: 3.0.1
-# commit : 44e16d154a708ddda6d3990166a56ac5222ce910
+# 当前主题版本: 3.3.0
+
 # 导航目录
 # --------------------------------------
 menu:
@@ -95,6 +95,10 @@ archive_img: /img/blob/archives.jpg
 
 #  tag 的顶部图
 tag_img: /img/blob/tags.jpg
+# 为每个tag设置顶部图
+# 3.2.0之后
+# tag_per_img:
+# category_per_img:
 
 # the banner image of category page
 category_img: /img/blob/tags.jpg
@@ -130,11 +134,14 @@ post_meta:
     categories: true # 主页是否显示分类
     tags: true # 主页是否显示标签
     label: true # 显示描述性文字
+    # 3.2.0 以后生效
+    # date_format: relative # date/relative 显示日期还是相对日期
   post: # 文章详情
     date_type: both # 日期是创建日或者更新日或都显示
     categories: true # 是否显示分类
     tags: true # 是否显示标签
     label: true # 显示描述性文字
+    # date_format: relative # date/relative 显示日期还是相对日期
 
 # 字数统计
 # npm install hexo-wordcount --save
@@ -148,9 +155,10 @@ wordcount:
 # 1: description: 只显示 {description}
 # 2: both: 先选择 {description}，如果没有配置 {description}，则显示自动节选的内容
 # 3: auto_excerpt: 只显示自动节选
+# false: 什么也不显示 # 3.2.0 之后生效
 # 此处所说的 {description} 是在写文章里面声明的。
 index_post_content:
-  method: 2
+  method: 3
   length: 500 # 如果选择2或者3，则需要配置自动节选的长度。
 
 # Post
@@ -160,7 +168,8 @@ index_post_content:
 toc:
   enable: true
   number: true
-  auto_open: true  # 进入文章页面时，是否自动打开 sidebar 显示 TOC
+  # 3.3.0 以后下面就没用了.
+  # auto_open: true  # 进入文章页面时，是否自动打开 sidebar 显示 TOC
 
 # 文章版权信息
 post_copyright:
@@ -234,14 +243,16 @@ sharejs:
 # https://www.addtoany.com/
 addtoany:
   enable: false
-  item:
-    - facebook
-    - twitter
-    - wechat
-    - sina_weibo
-    - facebook_messenger
-    - email
-    - copy_link
+  item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
+# 3.1.0 之前是下面这个写法
+#  item:
+#    - facebook
+#    - twitter
+#    - wechat
+#    - sina_weibo
+#    - facebook_messenger
+#    - email
+#    - copy_link
 
 # 评论系统
 # TODO: 暂时先简单实现,后续慢慢搞以下.
@@ -431,7 +442,9 @@ canvas_ribbon:
   mobile: true  # 手机端
 
 # 动态彩带
-canvas_ribbon_piao:
+#canvas_ribbon_piao:
+# 3.2.0 之前是上面, 3.2.0 之后是下面
+canvas_fluttering_ribbon:
   enable: true
   mobile: true
 
@@ -524,7 +537,10 @@ subtitle:
     - 愿我所愿，终能实现
 
 # 当进入网页时，因为加载速度的问题，可能会导致 top_img 图片出现断层显示，或者网页加载不全而出现等待时间，开启 preloader 后，会显示加载动画，等页面加载完，加载动画会消失。
-preloader: false
+preloader: true
+# 3.2.0 之后生效
+# Enter transitions (开启网页进入效果)
+#enter_transitions: true
 
 # 侧边栏
 # --------------------------------------
@@ -533,6 +549,11 @@ preloader: false
 aside:
   # 设置为 false 则关闭侧边栏
   enable: true
+  # 3.3.0 之后生效 ⬇
+  # 效果就是 是否显示侧边栏(目录)以及右下角的 缩放 按钮
+  hide: false
+  button: true
+  # ⬆
   mobile: true # 手机页面
   position: right # 侧边栏在左边还是右边
   # 头像下面的那个 button 按钮
@@ -547,11 +568,11 @@ aside:
       link: https://github.com/MMMMMMLi
   # 公告栏
   card_announcement:
-    enable: false
-    content: 感谢访问本站，如喜欢请关注。d=====(￣▽￣*)b
+    enable: true
+    content: 感谢访问本站，如喜欢请关注。<br /> Thanks for visiting this site. If you like, please pay attention. <br />  d=====(￣▽￣*)b
   # 最新的帖子，先关闭。
   card_recent_post:
-    enable: false
+    enable: true
     limit: 5 # 显示条数，如果设置0则显示全部
     sort: date # 排序方法
   # 分类
@@ -571,7 +592,12 @@ aside:
     format: MMMM YYYY # 显示的是啥
     order: -1 # 排序类型  1: asc表示升序，-1:desc表示降序
     limit: 8 # 显示条数，如果设置0则显示全部
-  card_webinfo: true
+  # card_webinfo: true
+  # 3.2.0 之后是下面 之前是上面
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
 
 # 访问人数：http://busuanzi.ibruce.info/
 busuanzi:
@@ -734,9 +760,12 @@ fragment_cache: true
 # 引入自定义的CSS或者JS
 inject:
   head:
-  - <link rel="stylesheet" href="/css/mine.css">
+    - <link rel="stylesheet" href="/css/mine.css">
+    - <link rel="stylesheet" href="/gitcalendar/css/gitcalendar.css"/>
   bottom:
-  - <script src="/js/mine.js"></script>
+    - <script src="/js/mine.js"></script>
+    - <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    - <script src="/gitcalendar/js/gitcalendar.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -781,9 +810,13 @@ CDN:
   busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
   # background effect
-  canvas_ribbon: /js/third-party/canvas-ribbon.js
-  canvas_ribbon_piao: /js/third-party/piao.js
-  canvas_nest: /js/third-party/canvas-nest.js
+  # canvas_ribbon: /js/third-party/canvas-ribbon.js
+  # canvas_ribbon_piao: /js/third-party/piao.js
+  # canvas_nest: /js/third-party/canvas-nest.js
+  # 3.2.0 之前用上面, 之后用下面
+  canvas_ribbon: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js
+  canvas_fluttering_ribbon: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
+  canvas_nest: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-nest.min.js
 
   lazyload: https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js
   instantpage: https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js
@@ -800,11 +833,16 @@ CDN:
   snackbar: https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js
 
   # effect
-  anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js
-  activate_power_mode: /js/third-party/activate-power-mode.js
-  fireworks: /js/third-party/fireworks.js
-  click_heart: /js/third-party/click_heart.js
-  ClickShowText: /js/third-party/ClickShowText.js
+  #  anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js
+  #  activate_power_mode: /js/third-party/activate-power-mode.js
+  #  fireworks: /js/third-party/fireworks.js
+  #  click_heart: /js/third-party/click_heart.js
+  #  ClickShowText: /js/third-party/ClickShowText.js
+  # 3.2.0 之前用上面, 之后用下面
+  activate_power_mode: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
+  fireworks: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js
+  click_heart: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js
+  ClickShowText: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js
 
   # fontawesome
   fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
