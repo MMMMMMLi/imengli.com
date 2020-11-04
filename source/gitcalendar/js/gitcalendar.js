@@ -82,8 +82,6 @@ const calendar = new Vue({
         ],
         color: [ //这里是颜色配置，当前为蓝色，若需更换请对应数组内容进行替换
             '#ebedf0',
-            '#f0fff4',
-            '#dcffe4',
             '#bef5cb',
             '#85e89d',
             '#34d058',
@@ -92,6 +90,7 @@ const calendar = new Vue({
             '#176f2c',
             '#165c26',
             '#144620'
+
         ]
     },
     methods: {
