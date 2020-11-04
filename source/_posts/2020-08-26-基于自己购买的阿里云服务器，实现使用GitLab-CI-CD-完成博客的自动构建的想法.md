@@ -5,7 +5,7 @@ tags:
   - GitLab
   - CI/CD
 categories:
-  - GitLab
+  - Blob
 keywords:
   - 'GitLab,Blob,Hexo,CI/CDl'
 cover: /img/post/cai.png

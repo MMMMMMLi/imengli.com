@@ -4,7 +4,7 @@ tags:
   - Hexo
   - Blob
 categories:
-  - Hexo
+  - Blob
 keywords:
   - 'Hexo,搭建笔记'
 description: 记录一下如何使用Hexo和Butterfly搭建的个人博客。

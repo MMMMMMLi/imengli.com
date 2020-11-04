@@ -10,6 +10,7 @@ keywords:
   - Blob
 cover: /img/post/onepiece.png
 description: 使用GitHub的Actions实现博客的远程更新及部署。
+sticky: 1
 abbrlink: 3403
 date: 2020-11-02 17:54:00
 updated: 2020-11-02 17:54:05

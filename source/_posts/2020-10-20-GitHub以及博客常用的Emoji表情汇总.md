@@ -4,7 +4,7 @@ tags:
   - GitHub
   - Emoji
 categories:
-  - Emoji
+  - Blob
 keywords:
   - Emoji
 cover: /img/post/emoji.png
