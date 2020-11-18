@@ -11,8 +11,8 @@ keywords:
 cover: /img/post/cai.png
 description: 现在写博客都要自己手动创建，测试，构建等工作，想着能不能基于GitLab的CI/CD来实现自动部署呢，分析一下可行性。现在
 abbrlink: 30807
-date: 2020-08-26 11:28:26
-updated: 2020-09-18 10:10:44
+date: 2020-08-26 21:28:26
+updated: 2020-09-18 19:10:44
 ---
 
 {% note warning simple %}
