@@ -1,11 +1,12 @@
 ---
 title: Jacoco Code Coverage
 tags:
-    - 测试
-    - Jacoco
+  - 测试
+  - Jacoco
 categories:
-    - Jacoco
+  - Jacoco
 cover: /img/post/Jacoco.jpg
+abbrlink: 15250
 date: 2021-03-10 17:02:36
 updated: 2021-03-10 18:11:50
 ---
