@@ -1,10 +1,11 @@
 ---
 title: 「随手记」修改JetBrains家族软件（IDEA、WebStorm等）缓存位置
 tags:
-    - 随手记
+  - 随手记
 categories:
-    - 随手记
+  - 随手记
 cover: /img/post/ssj.jpg
+abbrlink: 41533
 date: 2021-03-31 15:16:09
 updated: 2021-03-31 15:16:13
 ---
