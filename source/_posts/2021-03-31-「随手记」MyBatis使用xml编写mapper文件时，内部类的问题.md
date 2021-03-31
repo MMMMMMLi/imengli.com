@@ -7,6 +7,7 @@ tags:
 categories:
   - 随手记
 cover: /img/post/mybatis.jpg
+abbrlink: 51021
 date: 2021-03-31 16:00:33
 updated: 2021-03-31 16:00:37
 ---
