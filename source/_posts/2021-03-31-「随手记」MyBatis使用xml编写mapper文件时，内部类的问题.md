@@ -61,7 +61,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.mengli.InfoD
 </select>
 ```
 
-# 第二个问题
+# 第二个问题说明
 
 在改完之后呢，执行查询的时候，还是报错，只不过这个错不是上面那个错了，而是：`java.lang.NoSuchMethodException：`
 
@@ -97,6 +97,10 @@ mybatis在构建返回的时候，用的是反射，既然反射新建对象时�
 ```
 
 # 问题解决
+
+**将内部类修饰为静态内部类即可。**
+
+#　总结
 
 在使用内部类作为返回对象的时候，需要有两个要点：
 
